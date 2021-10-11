@@ -1,4 +1,10 @@
-.box{
+.gs-box{
   height: 400px;
-  width: 100px;
+  /* da togliere */
 }
+
+.gs-box-portfolio{
+  height: 100px;
+
+}
+
