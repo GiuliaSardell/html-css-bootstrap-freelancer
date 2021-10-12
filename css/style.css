@@ -72,12 +72,13 @@ header{
 }
 
 .gs-line{
-  display: inline-block;
-  width: 100px;
-  border-top: 1px solid black;
-  margin: 20px 10px;
+  width: 15%;
+  height: 2px;
+  background-color: #fff;
+}
 
-  /* da togliere */
+.gs-line-black{
+  background-color: black;
 }
 
 .gs-inner-jumbo p{
@@ -88,6 +89,24 @@ header{
 
 .gs-portfolio, .contact{
   background-color: white;
+}
+
+.gs-row{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.star-gs{
+  padding: 20px 0;
+  font-size: 30px;
+  color: black;
+}
+
+.star-gs-white{
+  padding: 20px 0;
+  font-size: 30px;
+  color: white;
+
 }
 
 .gs-box{
@@ -139,7 +158,6 @@ header{
     color: white;
     font-size: 60px;
 }
-
 
 
 .gs-div-button{
