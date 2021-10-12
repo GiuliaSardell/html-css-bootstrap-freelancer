@@ -3,10 +3,6 @@ body{
   color: white;
 }
 
-/* ******d togliere******* */
-.gs-box-portfolio{   
-  height: 100px;
-}
 
 header{
   height: 80px;
@@ -96,13 +92,55 @@ header{
 
 .gs-box{
   margin: 10px;
-}
-
-.gs-box img{
   display: inline-block;
   width: 300px;
   border-radius: 5%;
 }
+
+.gs-box img{
+  display: block;
+  width: 100%;
+  border-radius: 5%;
+}
+
+
+.gs-box img:hover .gs-middle{
+  filter: opacity(1);
+}
+
+.gs-relative{
+  position: relative;
+}
+
+.gs-middle{
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  background-color:rgba(26, 185, 154, .7);
+  transition: .3s ease;
+  filter: opacity(0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gs-box:hover .gs-box img{
+  filter: opacity(0.3);
+}
+
+.gs-box:hover .gs-middle{
+  filter: opacity(1);
+}
+
+.gs-plus{
+  filter: opacity(1);
+    color: white;
+    font-size: 60px;
+}
+
+
 
 .gs-div-button{
   margin-top: 20px;
@@ -135,12 +173,12 @@ header{
   border-bottom: 1px solid lightgrey;
 }
 
-.gs-btn-submit{
+.gs-btn-send{
   margin: 10px 0 50px 0;
   border-color: #1ABC9C;
 }
 
-.gs-btn-submit:hover{
+.gs-btn-send:hover{
   border-color: #1ABC9C;
   background-color: #1ABC9C;
   opacity: .8;
