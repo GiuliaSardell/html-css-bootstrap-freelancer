@@ -18,7 +18,7 @@ header{
 }
 
 .gs-logo{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .gs-custom-header{
@@ -104,6 +104,22 @@ header{
   border-radius: 5%;
 }
 
+.gs-div-button{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gs-btn-download{
+  color: white;
+  padding: 5px 20px;
+  border-color: white;
+}
+
+.gs-btn-download:hover{
+  color: white;
+  background-color: rgba(255, 255, 255, .5)
+}
+
 .gs-container{
   width: 60%;
   margin: 0 auto;
@@ -119,12 +135,12 @@ header{
   border-bottom: 1px solid lightgrey;
 }
 
-.gs-btn{
+.gs-btn-submit{
   margin: 10px 0 50px 0;
   border-color: #1ABC9C;
 }
 
-.gs-btn:hover{
+.gs-btn-submit:hover{
   border-color: #1ABC9C;
   background-color: #1ABC9C;
   opacity: .8;
