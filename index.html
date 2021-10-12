@@ -14,45 +14,54 @@
 </head>
 <body>
 
-  <header>
+  <header class="gs-bg-grey fixed-top">
   
-    <div class="container-fluid d-inline-block bg-primary">
+    <div class="container">
 
-      <div class="row justify-content-around m-2">
+      <div class="row">
 
-        <div class="col-5 bg-danger">
-          <div>Logo</div>
+        <div class="col">
+          <span class="gs-logo gs-custom-header">Start Bootstrap</span>
         </div>
 
-        <div class="col-5 bg-danger">
+        <div class="col text-end">
 
-          <div class="row justify-content-between">
-
-            <div class="col-3 m-1 bg-secondary d-none d-sm-inline-block">1</div>
-            <div class="col-3 m-1 bg-secondary d-none d-sm-inline-block">2</div>
-            <div class="col-3 m-1 bg-secondary d-none d-sm-inline-block">3</div> 
-
-            <div class="col-2 offset-10 ">
-              <div class="d-inline-block d-sm-none "><i class="fas fa-bars"></i></div>
+            <div class="d-none d-md-block gs-hover-header">
+              <span class="m-2 gs-custom-header gs-hover-header">Portfolio</span>
+              <span class="m-2 gs-custom-header gs-hover-header">About</span>
+              <span class="m-2 gs-custom-header gs-hover-header">Contact</span>
             </div>
-          </div>
+
+            <div class="d-block d-md-none gs-hamburger">
+              <i class="fas fa-bars"></i>
+            </div>
+            
+
         </div>
       </div>
     </div>
+
   </header>
 
-  <div class="jumbotron bg-secondary">
+  <section class="gs-jumbo gs-bg-green gs-py-50">
+    <div class="gs-inner-jumbo">
+      <img src="img/avatar.svg" alt="">
+      <h1 class="gs-title">Start Bootstrap</h1>
 
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-8 bg-success">
-          <div class="gs-box"></div>
-        </div>
-      </div>
+
+      <!--    <div class="container gs-box"></div>
+      <div class="container gs-box"></div> -->
+
+      <p>Graphic artist - web designer - illustrator</p>
+       
+      
+
+
 
     </div>
+    </div>
+  </section>
 
-  </div>
 
   <div class="portfolio">
 
