@@ -3,7 +3,8 @@ body{
   color: white;
 }
 
-.gs-box-portfolio{
+/* ******d togliere******* */
+.gs-box-portfolio{   
   height: 100px;
 }
 
@@ -58,19 +59,27 @@ header{
 .gs-title{
   text-transform: uppercase;
   text-align: center;
-  margin: 20px 0;
+  padding: 20px 0 10px 0;
   font-size: 40px;
+}
+
+.gs-title-content{
+  font-size: 30px;
+}
+
+.gs-title-black{
+  color: #2C2C2C;
 }
 
 .gs-hamburger{
   font-size: 20px;
 }
 
-.gs-box{
+.gs-line{
   display: inline-block;
   width: 100px;
-  border-top: 1px solid white;
-  margin: 0 10px;
+  border-top: 1px solid black;
+  margin: 20px 10px;
 
   /* da togliere */
 }
@@ -79,4 +88,44 @@ header{
   text-transform: uppercase;
   text-align: center;
   padding: 20px 0;
+}
+
+.gs-portfolio, .contact{
+  background-color: white;
+}
+
+.gs-box{
+  margin: 10px;
+}
+
+.gs-box img{
+  display: inline-block;
+  width: 300px;
+  border-radius: 5%;
+}
+
+.gs-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.gs-contact{
+  color: lightgreen;
+}
+
+.gs-form input, .gs-form textarea{
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.gs-btn{
+  margin-top: 10px;
+  border-color: #1ABC9C;
+}
+
+.gs-btn:hover{
+  border-color: #1ABC9C;
+  background-color: #1ABC9C;
+  opacity: .8;
 }

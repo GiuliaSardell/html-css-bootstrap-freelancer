@@ -103,6 +103,76 @@
 
   </section>
 
+  <section class="gs-about gs-bg-green gs-py-50">
+
+    <h2 class="gs-title gs-title-content">about</h2>
+
+    <div class="text-center">
+      <div class="container gs-line"></div>
+      <div class="container gs-line"></div>
+    </div>
+
+    <div class="gs-container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 text-justify">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, nesciunt?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, nesciunt?</p>
+          </div>
+          <div class="col-6 text-justify">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, nesciunt?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, nesciunt?</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="gs-contact">
+
+    <div class="gs-container">
+
+      <div class="container">
+
+        <h2 class="gs-title gs-title-content gs-title-black">contact me</h2>
+
+        <div class="text-center">
+          <div class="container gs-line"></div>
+          <div class="container gs-line"></div>
+        </div>
+
+        <form>
+
+          <div class="gs-form">
+      
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+
+          </div>
+          
+          <button type="submit" class="gs-btn gs-bg-green btn btn-primary">Submit</button>
+
+        </form>
+    
+    </div>
+
+  </div>
+
+
+
+
+
+  </section>
+
 
 
 
@@ -253,6 +323,11 @@
 
   </footer>
 
-
+  <script type="module">
+    import { Toast } from 'bootstrap.esm.min.js'
+  
+    Array.from(document.querySelectorAll('.toast'))
+      .forEach(toastNode => new Toast(toastNode))
+  </script>
 </body>
 </html>
